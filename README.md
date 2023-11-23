@@ -27,5 +27,5 @@ When executing `POST /orders/createAndSend` with the error input to true the sys
 
 ## UI 
 
-Kafdrop: http://localhost:9000/
-Swagger UI: http://localhost:8080/swagger-ui/index.html
+- Kafdrop: http://localhost:9000/
+- Swagger UI: http://localhost:8080/swagger-ui/index.html
