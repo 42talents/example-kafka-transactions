@@ -22,7 +22,7 @@ When executing `POST /orders/createAndSend` with the error input to true the sys
 Property `spring.kafka.consumer.properties.isolation.level` is set to `read_committed`.
 See also https://docs.confluent.io/platform/current/installation/configuration/consumer-configs.html#isolation-level
 
-When executing `POST /orders/createAndSend` with the error input to true the system does not retrie messages as the kafka transaction is not commited. Leaving the db with "NEW" orders only.
+When executing `POST /orders/createAndSend` with the error input to true the system does not retrieve messages as the kafka transaction is not commited. Leaving the db with "NEW" orders only.
 
 
 ## UI 
